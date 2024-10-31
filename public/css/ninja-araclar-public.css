@@ -1,0 +1,111 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+ .ninja_puandurumu_container,
+  .ninja_puandurumu_container table,
+   .ninja_puandurumu_container table tbody{
+     max-width:100%;
+     width:100%;
+ }
+ .ninja_puandurumu_container table td {
+  padding: 0.4em 0;
+  text-align: center;
+ }
+ .na_tablo_durum {
+  text-align: center;
+ }
+
+ .na_tablo_sira {
+  text-align: center;
+ }
+ .na_tablo_takim {
+  text-align: left !important;
+  font-size: 0.956em;
+ }
+ .na_chmp {
+   background:#e0ffd6;
+ }
+ .na_uefa {
+   background:#d6f9ff;
+ }
+ .na_gulegule {
+   background:#ffd6d6;
+ }
+ div#burc_tablari {
+    border: 1px solid #ccc;
+    float: left;
+}
+ #burc_tablari ul {
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+#burc_tablari ul li {
+ background:#f7f7f7;
+ border-bottom:none;
+ border-right: 1px solid #ddd;
+}
+#burc_tablari li.ui-tabs-tab.ui-tab.ui-tabs-active.ui-state-active {
+ background:#fff;
+ border-right:none;
+}
+#burc_tablari ul li:first-child {
+ border-top:none;
+}
+
+#burc_tablari > div {
+    width: 75%;
+    float: right;
+}
+.widget_burc img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Döviz Kurları Widgeti */
+
+#doviz_kurlari ul li {
+ height:45px;
+ 
+}
+#doviz_kurlari ul li > div{
+  float: left;
+  width:25%;
+  text-align: center;
+  padding-bottom: 5px;
+}
+#doviz_kurlari ul li > div.doviz-bg {
+ background: url('../images/kur/sar.png')no-repeat 30px;
+ height: 100%;
+}
+#doviz_kurlari ul li > div.doviz-bayrak-usd {
+ background: url('../images/kur/usd.png')no-repeat 30px;
+}
+#doviz_kurlari ul li > div.doviz-bayrak-eur {
+ background: url('../images/kur/eur.png')no-repeat 30px;
+}
+#doviz_kurlari ul li > div.doviz-bayrak-gbp {
+ background: url('../images/kur/gbp.png')no-repeat 30px;
+}
+#doviz_kurlari ul li > div.doviz-bayrak-rub {
+ background: url('../images/kur/rub.png')no-repeat 30px;
+}
+#doviz_kurlari ul li > div.doviz-bayrak-jpy {
+ background: url('../images/kur/jpy.png')no-repeat 30px;
+}
+#doviz_kurlari ul li > div.doviz-bayrak-sar {
+ background: url('../images/kur/sar.png')no-repeat 30px;
+}
+#doviz_kurlari ul li > div.doviz_durum {
+ padding:1px;
+ width:10%;
+ 
+}
+#doviz_kurlari ul li > div.doviz_alis,
+#doviz_kurlari ul li > div.doviz_satis{
+ width:32.5%;
+}
+
